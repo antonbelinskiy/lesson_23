@@ -1,0 +1,40 @@
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+    height: 336px;
+}
+.row {
+    border: 1px solid;
+}
+.footer_1,
+.footer_2,
+.footer_3,
+.footer_4 {
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 720px) {
+    .blue {
+        background-color: hotpink;
+        height: auto;
+    }
+    .first {
+        min-width: 100%;
+    }
+     .second {
+        order: -1;
+        min-width: 100%;
+    }
+    .footer_1,
+    .footer_2 {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+}
